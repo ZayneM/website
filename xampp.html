@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Install Xampp</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container">
+
+    <h1>How to install Xampp</h1>
+
+    <p>Go to <a href="https://www.apachefriends.org/index.html">https://www.apachefriends.org/index.html</a></p>
+  <p>Download Xampp for whatever operating system you are using.</p>
+  <p>Install Xampp with default settings.</p>
+  <p>Change Apache config by opening httpd.conf</p>
+  <p>Find document root and change to your website directory.(careful about forward and back slashes)</p>
+  <p>save the file and restart apache if needed.</p>
+  <p>Go to localhost in web browser</p>
+
+  <h1>How to setup MySQL</h1>
+  <p>Click Start in XAMPP control panel for MySQL</p>
+  <p>Click Admin button to open up phpmyadmin</p>
+  <p>Select user Accounts</p>
+  <p>Select Add User Account</p>
+  <p>Put in a username, select localhost, put in a password</p>
+  <p>Select Global Privileges - Select all</p>
+  <p>click Go in the bootom right corner to confirm the account</p>
+
+  <h1>How to get a domain name and Setup DNS</h1>
+  <p>Go to <a href="https://www.freenom.com">https://www.freenom.com</a></p>
+  <p>Find domain name you like. Click check and select use own DNS</p>
+  <p>Go to <a href="https://www.namecheap.com">https://www.namecheap.com</a> and sign up for an account</p>
+  <p>Use the FreeDNS service and register your domain with their DNS servers</p>
+  <p>Use the DNS servers provided from NameCheap in the Freenom domain name purchasing</p>
+  <p>Purchase the domain and fill out all the information.</p>
+  <p>Go to your dashboard in NameCheap and select manage on your domain</p>
+  <p>Create an A record by searching google for what's my ip address</p>
+  <p>Copy your IP address into the record and then down below select dynamic DNS</p>
+  <p>download the software for Dynamic DNS</p>
+  <p>Open Zip File and Run the exe file</p>
+  <p>Create a new profile by using @ as the host, your domain name and the password generated in the advanced DNS section</p>
+  <p>Select update every 15 minutes and auto detect IP Address and save.</p>
+
+  <h1>How to setup your router to forward port 80 to your computer.</h1>
+  <pre>
+1.Open Command prompt and type in ipconfig
+  default gateway (your router)
+  IPv4 Address (your computer)
+2. Go to http://(default gateway IP)
+3. Log In (your router login information may be on a sticker on the 
+  top/back/bottom of your router)
+4. Look for 'Port Forwarding' or 'Port Triggering'
+5. 'Add' or 'Create'
+6. If you are required to input a range, enter 80 - 80
+7. Enter the IPv4 Address from step #1
+8. Choose TCP if asked
+9. Open XAMPP on your computer and start Apache if you haven't already,
+  accept the message from your firewall.
+</pre>
+  </div>
+</body>
+</html>

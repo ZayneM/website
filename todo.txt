@@ -1,0 +1,24 @@
+Things to Do
+
+FRONTEND
+Make the front page look better by adding some borders and show to the cols
+
+Find an image or make one for my site
+
+Make sure all of my nav bar links work
+
+
+BACKEND
+
+I want people to be able to login and comment on my projects that I projects
+
+I need a user table and login for the users
+
+I need a place in my admin area to posts my projects
+
+I need a table to store my projects and display them
+
+
+INstructions for setting up Server Environment:
+
+beta.toeverykid.org/7th/guide.php
